@@ -1,0 +1,15 @@
+a{
+    color: rgb(0, 0, 0);
+}
+
+nav, ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+}
+

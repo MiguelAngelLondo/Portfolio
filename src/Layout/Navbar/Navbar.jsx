@@ -1,10 +1,9 @@
-import { Children } from "react"
-
-export const Navbar = ({Children}) =>{
+import "./Navbar.css"
+export const Navbar = ({children}) =>{
 
     return(
         <nav>
-            {Children}
+            {children}
         </nav>
     )
 }

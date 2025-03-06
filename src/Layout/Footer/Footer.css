@@ -1,0 +1,14 @@
+.footer{
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.nav, ul, li{
+     display: flex;
+    flex-direction: row;
+    gap: 70px;
+   
+}
