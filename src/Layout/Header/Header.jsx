@@ -1,20 +1,19 @@
-import {Navbar} from '../Navbar/Navbar'
-import "./Header.css"
-import { ItemNavbar } from '../../Components/ItemNavbar/ItemNavbar'
-export const Header = () =>{
+import { Navbar } from '../Navbar/Navbar';
+import "./Header.css";
+import { ItemNavbar } from '../../Components/ItemNavbar/ItemNavbar';
 
-    return(
-        <header className ="header">
+export const Header = () => {
+    return (
+        <header className="header">
             <h1>Portfolio</h1>
             <Navbar>
-                <ul>
-        <ItemNavbar content="Home" />
-        <ItemNavbar content="technical skills" />
-        <ItemNavbar content="Work Experience" />
-        <ItemNavbar content="Certificates" />
+                <ul className="nav-list">
+                    <ItemNavbar content="Home" Route="/" />
+                    <ItemNavbar content="Technical Skills" Route="/technical-skills" />
+                    <ItemNavbar content="Work Experience" Route="/work-experience" />
+                    <ItemNavbar content="Certificates" Route="/certificates" />
                 </ul>
             </Navbar>
-          
         </header>
-    )
+    );
 }

@@ -1,9 +1,37 @@
-.footer{
+.footer {
     width: 100vw;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #06718b;
+    color: #fff;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
     bottom: 0;
-    
+}
+
+.footer h4 {
+    margin: 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.footer .network {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px; /* Reduced gap */
+}
+
+.footer .network a {
+    font-size: 1.5em;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer .network a:hover {
+    color: #ffeb3b;
 }
 
 .nav, ul, li{
@@ -11,4 +39,11 @@
     flex-direction: row;
     gap: 70px;
    
+}
+
+.Network{
+    display: flex;
+    gap: 70%;
+    margin-top: 20px;
+    font-size: 20px;
 }

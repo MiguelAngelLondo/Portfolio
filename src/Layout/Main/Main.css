@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #e0f7fa;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin: 9% auto;
+    max-width: 70%;
+    font-family: 'Outfit', sans-serif;
+}
+
+.about-section, .english-level-section {
+    width: 100%;
+    margin-bottom: 60px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-card {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin-right: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.card-content {
+    text-align: left;
+    flex: 1;
+}
+
+.presentation {
+    font-size: 1.3em;
+    color: #333;
+}
+
+.contact-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #00796b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+    background-color: #004d40;
+}
+
+.social-menu {
+    margin-top: 30px; /* Increased spacing */
+    display: flex;
+    gap: 20px;
+}
+
+.social-menu a {
+    font-size: 1.5em;
+    color: #00796b;
+    transition: color 0.3s ease-in-out;
+}
+
+social-menu a:hover {
+    color: #004d40;
+}
+
+h1, h2 {
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 30px;
+    color: #00796b;
+}
+
+.skills-list, .projects-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li, .projects-list li {
+    background-color: #b2dfdb;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    flex: 1 1 calc(50% - 20px);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.english-level {
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}

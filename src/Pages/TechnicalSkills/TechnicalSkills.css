@@ -1,0 +1,15 @@
+.technical-skills {
+    padding: 20px;
+    background-color: #f9f9f9;
+    background-image: url('path/to/your/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.technical-skills h1 {
+    color: #333;
+}
+
+.technical-skills p {
+    color: #666;
+}
