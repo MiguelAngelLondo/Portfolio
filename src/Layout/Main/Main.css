@@ -1,25 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
-main {
-    display: flex;
+main{
+    margin-top: 5%;
     flex-direction: column;
-    align-items: center;
-    padding: 40px;
-    background-color: #e0f7fa;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    margin: 9% auto;
-    max-width: 70%;
-    font-family: 'Outfit', sans-serif;
+    
 }
-
 .about-section, .english-level-section {
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     padding: 40px;
-    background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  
+}
+.english-level{
+    gap: 20px;
 }
 
 .about-me {
@@ -27,6 +20,8 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    flex-direction:row ;
+    
 }
 
 .about-card {
@@ -34,8 +29,8 @@ main {
     align-items: center;
     margin-top: 20px;
     padding: 20px;
-    background-color: #fff;
     border-radius: 20px;
+    flex-direction: row;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
@@ -47,78 +42,102 @@ img {
     transition: transform 0.3s ease-in-out;
 }
 
-img:hover {
-    transform: scale(1.1);
+/* Responsive queries */
+@media (max-width: 1800px) {
+    .about-card {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    img {
+        width: 70%;
+        max-width: 200px;
+        height: 200px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 }
 
-.card-content {
-    text-align: left;
-    flex: 1;
+@media (max-width: 1600px) {
+    .about-card {
+        padding: 30px;
+    }
+
+    img {
+        max-width: 200px;
+        height: 200px;
+    }
 }
 
-.presentation {
-    font-size: 1.3em;
-    color: #333;
+@media (max-width: 1400px) {
+    .about-card {
+        padding: 25px;
+    }
+
+    img {
+        max-width: 200px;
+      
+        height: 200px;
+    }
 }
 
-.contact-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1em;
-    color: #fff;
-    background-color: #00796b;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+@media (max-width: 1200px) {
+    .about-card {
+        padding: 20px;
+    }
+
+    img {
+        max-width: 180px;
+    }
 }
 
-.contact-button:hover {
-    background-color: #004d40;
+@media (max-width: 1000px) {
+    .about-card {
+        padding: 15px;
+    }
+
+    img {
+        max-width: 160px;
+    }
 }
 
-.social-menu {
-    margin-top: 30px; /* Increased spacing */
-    display: flex;
-    gap: 20px;
+@media (max-width: 800px) {
+    .about-card {
+        padding: 10px;
+    }
+
+    img {
+        max-width: 140px;
+    }
 }
 
-.social-menu a {
-    font-size: 1.5em;
-    color: #00796b;
-    transition: color 0.3s ease-in-out;
+@media (max-width: 600px) {
+    .about-card {
+        padding: 5px;
+    }
+
+    img {
+        max-width: 120px;
+    }
 }
 
-social-menu a:hover {
-    color: #004d40;
+@media (max-width: 400px) {
+    .about-card {
+        padding: 5px;
+    }
+    
+
+    img {
+        max-width: 100px;
+    }
 }
 
-h1, h2 {
-    font-family: 'Outfit', sans-serif;
-    margin-bottom: 30px;
-    color: #00796b;
-}
+@media (max-width: 350px) {
+    .about-card {
+        padding: 5px;
+    }
 
-.skills-list, .projects-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.skills-list li, .projects-list li {
-    background-color: #b2dfdb;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    flex: 1 1 calc(50% - 20px);
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.english-level {
-    text-align: center;
-    font-size: 1.2em;
-    color: #333;
+    img {
+        max-width: 80px;
+    }
 }

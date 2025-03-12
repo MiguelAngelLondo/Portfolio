@@ -1,9 +1,42 @@
+import React from 'react';
+import './TechnicalSkills.css';
 export const TechnicalSkills = () => {
     return (
-        <div className="technical-skills">
-            <h1>Technical Skills</h1>
-            <img src="path/to/your/image.jpg" alt="Technical Skills" />
-            <p>Here is a list of my technical skills.</p>
+       <main>
+        <div id='technicall'>
+        <h1 id='text'>Technicall Skills</h1>
         </div>
+        <div className="front">
+            
+            <div className="container">
+                <div className="Section">
+                <h2>Work Tools</h2>
+                <p>React</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>c#</p>
+                <p>node.js</p>
+                </div>
+                
+                <div className="Section">
+                <h2>Control de Versiones</h2>
+                <p>Git</p>
+                <p>GitHub</p>
+                </div>
+                
+                <div className="Section">
+                <h2>Educación y Liderazgo</h2>
+                <p>Lógica de programación</p>
+                <p>Solucionador</p>
+                <p>conducción de conferencias</p>
+                </div>
+                <div className="Section">
+                <h2>Desarrollo Web</h2>
+                <p>Aplicaciones del lado del cliente</p>
+                </div>
+            </div>
+        </div>
+       </main>
     )
 }

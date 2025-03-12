@@ -1,15 +1,99 @@
-.technical-skills {
-    padding: 20px;
-    background-color: #f9f9f9;
-    background-image: url('path/to/your/background.jpg');
-    background-size: cover;
-    background-position: center;
+
+main {
+    
+    padding: 10%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+  
+    width: 100%;
+   
 }
 
-.technical-skills h1 {
-    color: #333;
+.Section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-style: italic;
+    
+
+    
+}
+.container{
+    display: flex;
+    gap: 14%;
 }
 
-.technical-skills p {
-    color: #666;
+#technicall {
+    width: fit-content;
+    background-color: black;
+    color: white;
+    border-radius: 90%;
+    
+    margin-left: 40px;
+    position: absolute; 
+    top: 8%; 
+    left: 8%; 
+    padding: 10px; 
 }
+
+h1{
+    font-size: 25px;
+}
+p{
+    font-size: 18px;
+}
+
+@media (max-width: 1400px) {
+   main{
+         padding: 10%;
+   }
+}
+@media (max-width: 1000px) {
+    main{
+          padding: 40%;
+    }
+ }
+ @media (max-width: 700px) {
+    main{
+        margin-top: 200px;
+    }
+ }
+ @media (max-width: 550px) {
+    main{
+          margin-top: 0px;
+          flex-direction: column;
+    }
+    .container{
+
+        gap: 18px;
+        flex-direction: column;
+    }
+ }
+ @media (max-width: 417px) {
+    main{
+          margin-top: 200px;
+    }
+    .container{
+
+        gap: 10px;
+    }
+ }
+ @media (max-width: 400px) {
+    main{
+          margin-top: 5px;
+    }
+      h1{
+        font-size: 10px;
+      }
+    .container{
+
+        gap: 10px;
+    }
+ }
+
+
