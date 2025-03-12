@@ -1,0 +1,143 @@
+main{
+    margin-top: 5%;
+    flex-direction: column;
+    
+}
+.about-section, .english-level-section {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  
+}
+.english-level{
+    gap: 20px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction:row ;
+    
+}
+
+.about-card {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    flex-direction: row;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin-right: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive queries */
+@media (max-width: 1800px) {
+    .about-card {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    img {
+        width: 70%;
+        max-width: 200px;
+        height: 200px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .about-card {
+        padding: 30px;
+    }
+
+    img {
+        max-width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .about-card {
+        padding: 25px;
+    }
+
+    img {
+        max-width: 200px;
+      
+        height: 200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-card {
+        padding: 20px;
+    }
+
+    img {
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .about-card {
+        padding: 15px;
+    }
+
+    img {
+        max-width: 160px;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-card {
+        padding: 10px;
+    }
+
+    img {
+        max-width: 140px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-card {
+        padding: 5px;
+    }
+
+    img {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-card {
+        padding: 5px;
+    }
+    
+
+    img {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 350px) {
+    .about-card {
+        padding: 5px;
+    }
+
+    img {
+        max-width: 80px;
+    }
+}
