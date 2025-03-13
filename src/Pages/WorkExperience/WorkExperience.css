@@ -1,0 +1,72 @@
+.work-experience {
+    padding: 15%;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+}
+
+.back {
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: column;
+    color: #333; 
+    height: 100%;
+    width: 100%;
+    gap: 40px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+p {
+    line-height: 1.6; 
+    margin-bottom: 10px; 
+}
+
+a {
+    color: #06718b; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+.back h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+@media (max-width: 1000px) {
+    .work-experience {
+        padding: 50%;
+    }
+    
+}
+
+@media (max-width: 720px) {
+    .work-experience {
+        padding: 40%;
+    }
+    
+}
+@media (max-width: 520px) {
+    .work-experience {
+        padding: 60%;
+    }
+    
+}
+@media (max-width: 600px) {
+    .work-experience {
+        padding: 30%;
+    }
+    
+}
+@media (max-width: 370px) {
+    .work-experience {
+        padding: 70%;
+    }
+    
+}

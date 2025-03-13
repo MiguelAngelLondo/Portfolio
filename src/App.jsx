@@ -6,6 +6,7 @@ import { TechnicalSkills } from './Pages/TechnicalSkills/TechnicalSkills'
 import { WorkExperience } from './Pages/WorkExperience/WorkExperience'
 import { Certificates } from './Pages/Certificates/Certificates'
 
+
 export const App = () => {
   return (
     <>
@@ -14,6 +15,8 @@ export const App = () => {
         <Route path="/technical-skills" element={<TechnicalSkills />} />
         <Route path="/work-experience" element={<WorkExperience />} />
         <Route path="/certificates" element={<Certificates />} />
+     
+
       </Routes>
       <Header />
       <Footer />

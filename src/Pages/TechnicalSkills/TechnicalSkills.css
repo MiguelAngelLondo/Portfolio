@@ -16,7 +16,7 @@ main {
 .Section {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     font-size: 20px;
     font-style: italic;
     

@@ -1,15 +1,43 @@
+main {
+    margin-top: 1%;
+    align-items: self-start;
+}
+
 .certificates {
-    padding: 20px;
-    background-color: #f9f9f9;
-    background-image: url('path/to/your/background.jpg');
-    background-size: cover;
-    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(123, 131, 131);
+    width: 100%;
+    gap: 40px;
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
 .certificates h1 {
-    color: #333;
+    font-size: 2em; /* Increase font size */
+    color: #ffffff; /* Change text color */
+    margin-bottom: 20px; /* Add margin below heading */
 }
 
 .certificates p {
-    color: #666;
+    color: #000000;
+    font-size: 1.2em; /* Increase font size */
+    line-height: 1.6; /* Improve readability */
+}
+
+.certifi {
+    width: 100%;
+    flex-direction: column;
+    background-color: #ffffff; /* Add background color */
+    padding: 15px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.certifi:hover {
+    transform: translateY(-5px); /* Add hover effect */
 }
