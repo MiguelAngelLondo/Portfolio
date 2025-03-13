@@ -2,7 +2,7 @@ import React from 'react';
 import './TechnicalSkills.css';
 export const TechnicalSkills = () => {
     return (
-       <main>
+       <div id="main">
         <div id='technicall'>
         <h1 id='text'>Technicall Skills</h1>
         </div>
@@ -30,13 +30,23 @@ export const TechnicalSkills = () => {
                 <p>Lógica de programación</p>
                 <p>Solucionador</p>
                 <p>conducción de conferencias</p>
+                <p>Ideador</p>
                 </div>
                 <div className="Section">
                 <h2>Desarrollo Web</h2>
                 <p>Aplicaciones del lado del cliente</p>
+                <p>Agil en el Back</p>
+                <p>Eficiente</p>
+                    
+                
                 </div>
             </div>
+            
         </div>
-       </main>
+        <div>
+                
+            </div>
+        </div>
+        
     )
 }

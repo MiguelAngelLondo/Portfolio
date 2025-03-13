@@ -49,12 +49,27 @@
     margin-top: 20px;
     font-size: 20px;
 }
+@media (max-width: 554px) {
+    .footer {
+        width: fit-content;
+        width: 100%;
+        
+        
+    }
+    .footer h4 {
+        margin: 0;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
 @media (max-width: 519px) {
     .footer {
         width: fit-content;
         width: 100%;
     }
 }
+
 @media (max-width: 980px) {
     .footer {
         width: fit-content;

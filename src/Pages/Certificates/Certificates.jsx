@@ -3,75 +3,50 @@ import './Certificates.css';
 
 export const Certificates = () => {
     return (
-        <main>
-            <div className="certificates">
-                <h1>Certificates</h1>
-                <div className="certifi">
-                    <p>Certificado 1:&nbsp;&nbsp; </p>
-                    <p> Curso Basico de RPA</p>
-
-
-                </div>
-                <div className="certifi">
-                    <p>Certificado 2:&nbsp;&nbsp; </p>
-                    <p> Introduccion PIX Master</p>
-                </div>
-
-                <div className="certifi">
-                    <p>Certificado 3:&nbsp;&nbsp; </p>
-                    <p> Introducctorio RPA</p>
-                </div>
-
-                <div className="certifi">
-                    <p>Certificado 4:&nbsp;&nbsp; </p>
-                    <p> Servicios de terceros PIX Master RPA</p>
-                </div>
-
-                <div className="certifi">
-                    <p>Certificado 5:&nbsp;&nbsp; </p>
-                    <p> Bachiller tenico</p>
-                </div>
-
-                <div className="certifi">
-                    <p>Certificado 6:&nbsp;&nbsp; </p>
-                    <p> Tecnico en Analisis y Desarrollo de Software</p>
-
-                </div>
-
+        <div className="certificates">
+            <h1>Certificates</h1>
+            
+            <div className="certifi">
+                <a href="https://drive.google.com/file/d/1fl7tWKadZ-oQRi2VkLJP_tS3Ifyqbz3t/view?usp=drive_link">
+                    <p>Certificate 1:&nbsp;&nbsp; </p>
+                    <p> Introductory Course PIX Master RPA</p>
+                </a>
             </div>
-
-
-            <div className='ShowCertificates'>
-
-                <div id='cert-1'>
-
-                    <embed src="../../../src/assets/Certificates/BasicoRPA.pdf" type="" />
-                </div>
-
-                <div id='cert-2'>
-
-                    <embed src="../../../src/assets/Certificates/IntroduccionPixMaster.pdf" type="" />
-                </div>
-
-                <div id='cert-3'>
-
-                    <embed src="../../../src/assets/Certificates/IntroductorioRPA.pdf" type="" />
-                </div>
-
-                <div id='cert-4'>
-
-                    <embed src="../../../src/assets/Certificates/ServiciosdetercerosPixMaster.pdf" type="" />
-                </div>
-
-                <div id='cert-5'>
-
-                    <embed src="../../../src/assets/Certificates/ServiciosdetercerosPixMaster.pdf" type="" />
-                </div>
-
-
-        <p>aaaaaaaaaaaaaaaaaaa</p>
-
+            
+            <div className="certifi">
+                <a href="https://drive.google.com/file/d/1LK0-KQqyuX_C4VRBC1z-YkDLh1eGZffq/view?usp=drive_link">
+                    <p>Certificate 2:&nbsp;&nbsp; </p>
+                    <p> Introductory RPA</p>
+                </a>
             </div>
-        </main>
+            
+            <div className="certifi">
+                <a href="https://drive.google.com/file/d/1BuA2DY-s9wcaAeo6O7eRdZAEsrrlRiIv/view?usp=drive_link">
+                    <p>Certificate 3:&nbsp;&nbsp; </p>
+                    <p> Basic RPA Course</p>
+                </a>
+            </div>
+            
+            <div className="certifi">
+                <a href="https://drive.google.com/file/d/1w6WJi8oY9WKiPE9XBuCGwzp3E4rBNiBF/view?usp=drive_link">
+                    <p>Certificate 4:&nbsp;&nbsp; </p>
+                    <p> Third Party Services PIX Master RPA</p>
+                </a>
+            </div>
+            
+            <div className="certifi">
+                <p>Certificate 5:&nbsp;&nbsp; </p>
+                <p> Technical High School Diploma</p>
+            </div>
+            
+            <div className="certifi">
+                <p>Certificate 6:&nbsp;&nbsp; </p>
+                <p> Technician in Software Analysis and Development</p>
+            </div>
+            <div>
+                
+            </div>
+        </div>
     );
 };
+

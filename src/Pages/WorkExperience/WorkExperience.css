@@ -39,16 +39,10 @@ a:hover {
     font-size: 50px;
     text-decoration: underline;
 }
-@media (max-width: 1000px) {
-    .work-experience {
-        padding: 50%;
-    }
-    
-}
 
-@media (max-width: 720px) {
+@media (max-width: 740px) {
     .work-experience {
-        padding: 40%;
+        padding: 20%;
     }
     
 }
@@ -64,9 +58,27 @@ a:hover {
     }
     
 }
+@media (max-width: 400px) {
+    .work-experience {
+        padding: 30%;
+    }
+    
+}
 @media (max-width: 370px) {
     .work-experience {
-        padding: 70%;
+        padding: 30%;
+    }
+    
+}
+@media (max-width: 370px) {
+    .work-experience {
+        padding: 50%;
+    }
+    
+}
+@media (max-width: 350px) {
+    .work-experience {
+        padding: 60%;
     }
     
 }
