@@ -69,6 +69,8 @@ export const Certificates = () => {
                 </div>
 
 
+        <p>aaaaaaaaaaaaaaaaaaa</p>
+
             </div>
         </main>
     );
