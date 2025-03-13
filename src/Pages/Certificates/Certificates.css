@@ -76,3 +76,24 @@
     }
     
 }
+@media (max-width: 500px) {
+    
+    .certificates{
+
+        width: fit-content;
+    }
+}
+@media (max-width: 400px) {
+    
+    .certificates{
+
+        width: fit-content;
+    }
+}
+@media (max-width: 350px) {
+    
+    .certificates{
+
+        width: fit-content;
+    }
+}
