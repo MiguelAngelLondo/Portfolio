@@ -8,7 +8,7 @@ export const Main = () => {
             <section className='about-section'>
                 <h1>About Me</h1>
                 <div className='about-card'>
-                    <img src="../../../src/assets/Images/me.jpeg" alt="About Me" />
+                    <img src="/Portfolio/src/assets/Images/me.jpeg" alt="About Me" />
                     <div className='card-content'>
                         <p className='presentation'>Hello, My Name is <strong>Miguel Angel Londoño.</strong> I am a passionate front-end and back-end programmer, and I am currently on my path as a programmer. I have good habits both personally and in programming. I want to be an excellent programmer, but above all, I want to be a good person.</p>
                     </div>

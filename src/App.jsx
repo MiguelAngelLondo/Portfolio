@@ -10,15 +10,13 @@ import { Certificates } from './Pages/Certificates/Certificates'
 export const App = () => {
   return (
     <>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/technical-skills" element={<TechnicalSkills />} />
         <Route path="/work-experience" element={<WorkExperience />} />
         <Route path="/certificates" element={<Certificates />} />
-     
-
       </Routes>
-      <Header />
       <Footer />
     </>
   )
