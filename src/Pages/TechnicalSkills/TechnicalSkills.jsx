@@ -4,7 +4,7 @@ export const TechnicalSkills = () => {
     return (
        <div id="root">
         <div id='technicall'>
-        <h1 id='text'>💎 Technicall Skills 💎</h1>
+        <h1 id='text'>Technical Skills</h1>
         </div>
         <div className="front">
             
@@ -15,28 +15,28 @@ export const TechnicalSkills = () => {
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>JavaScript</p>
-                <p>c#</p>
-                <p>node.js</p>
+                <p>C#</p>
+                <p>Node.js</p>
                 </div>
                 
                 <div className="Section">
-                <h2>Control de Versiones</h2>
+                <h2>Version Control</h2>
                 <p>Git</p>
                 <p>GitHub</p>
                 </div>
                 
                 <div className="Section">
-                <h2>Educación y Liderazgo</h2>
-                <p>Lógica de programación</p>
-                <p>Solucionador</p>
-                <p>conducción de conferencias</p>
-                <p>Ideador</p>
+                <h2>Education and Leadership</h2>
+                <p>Programming Logic</p>
+                <p>Problem Solver</p>
+                <p>Conference Conductor</p>
+                <p>Ideator</p>
                 </div>
                 <div className="Section">
-                <h2>Desarrollo Web</h2>
-                <p>Aplicaciones del lado del cliente</p>
-                <p>Agil en el Back</p>
-                <p>Eficiente</p>
+                <h2>Web Development</h2>
+                <p>Client-side Applications</p>
+                <p>Agile in Back-end</p>
+                <p>Efficient</p>
                     
                 
                 </div>
