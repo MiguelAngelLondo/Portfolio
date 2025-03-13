@@ -5,7 +5,7 @@ import './Certificates.css';
 export const Certificates = () => {
     return (
         <div className="certificates">
-            <h1>Certificates</h1>
+            <h1> 📚 Certificates 📚</h1>
             
             <div className="certifi">
                 <NavLink className='anchor-studies' to="https://drive.google.com/file/d/1fl7tWKadZ-oQRi2VkLJP_tS3Ifyqbz3t/view?usp=drive_link">

@@ -4,7 +4,7 @@ export const TechnicalSkills = () => {
     return (
        <div id="root">
         <div id='technicall'>
-        <h1 id='text'>Technicall Skills</h1>
+        <h1 id='text'>💎 Technicall Skills 💎</h1>
         </div>
         <div className="front">
             
