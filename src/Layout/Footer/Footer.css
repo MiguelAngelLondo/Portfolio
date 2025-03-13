@@ -76,3 +76,16 @@
         width: 100%;
     }
 }
+@media (max-width: 740px) {
+    
+    .footer {
+        width: fit-content;
+        width: 100%;
+    }
+    .footer h4 {
+        margin: 0;
+        font-size: 8px;
+        text-align: center;
+    }
+    
+}

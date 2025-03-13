@@ -59,6 +59,12 @@ a:hover {
     }
     
 }
+@media (max-width: 500px) {
+    .work-experience {
+        margin-top: 20%;
+    }
+    
+}
 @media (max-width: 400px) {
     .work-experience {
         padding: 10%;
@@ -73,7 +79,8 @@ a:hover {
 }
 @media (max-width: 350px) {
     .work-experience {
-        padding: 10%;
+        
+        margin-top: 20%;
     }
     
 }
