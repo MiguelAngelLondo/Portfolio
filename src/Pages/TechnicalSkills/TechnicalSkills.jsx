@@ -2,7 +2,7 @@ import React from 'react';
 import './TechnicalSkills.css';
 export const TechnicalSkills = () => {
     return (
-       <div id="main">
+       <div id="root">
         <div id='technicall'>
         <h1 id='text'>Technicall Skills</h1>
         </div>

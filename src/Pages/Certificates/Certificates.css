@@ -1,5 +1,3 @@
-
-
 #main {
     display: flex;
     flex-direction: column;
@@ -38,14 +36,35 @@
 .certifi {
     width: 100%;
     flex-direction: column;
-    background-color: #747474; /* Add background color */
+    background-color: #49343400; /* Add background color */
     padding: 15px; /* Add padding */
     border-radius: 5px; /* Add border radius */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    box-shadow: 0 2px 4px rgba(41, 156, 209, 0.685); /* Add subtle shadow */
     transition: transform 0.3s ease; 
+    text-decoration: none;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.anchor-studies {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
     text-decoration: none;
 }
 
-.certifi:hover {
-    transform: translateY(-5px); /* Add hover effect */
+.anchor-studies:hover {
+    text-decoration: none;
+    color: #d14545;
+}
+
+.c-description {
+    margin: 0 1rem 0 1rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

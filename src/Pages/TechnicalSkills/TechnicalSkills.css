@@ -1,4 +1,4 @@
-#main {
+#root {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
     align-items: center;
     width: 100%;
     gap: 50px;
-    padding: 1%;
+    padding: 5%
 }
 
 .Section {
@@ -18,6 +18,7 @@
     font-size: 20px;
     font-style: italic;
     color: #333333;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .container {
@@ -28,12 +29,34 @@
 #technicall {
     display: flex;
     font-size: 20px;
+    color: #555555;
+    animation: slideIn 1s ease-in-out;
 }
 
-#technicall {
-    display: flex;
-    font-size: 20px;
-    color: #555555;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1000px) {
+    #root {
+        margin-top: 10%;
+    }
+    
+    
 }
 
 @media (max-width: 700px) {
